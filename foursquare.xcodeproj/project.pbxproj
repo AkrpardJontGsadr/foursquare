@@ -19,6 +19,7 @@
 		F3429D46203CF9C4008378B9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3429D45203CF9C4008378B9 /* Post.swift */; };
 		F3429D48203CFA0B008378B9 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3429D47203CFA0B008378B9 /* UIColor+extension.swift */; };
 		F3429D4C203CFB41008378B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F3429D4B203CFB41008378B9 /* Podfile */; };
+		F3429D4E203D0974008378B9 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3429D4D203D0974008378B9 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F3429D45203CF9C4008378B9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F3429D47203CFA0B008378B9 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		F3429D4B203CFB41008378B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F3429D4D203D0974008378B9 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F3429D43203CF996008378B9 /* User.swift */,
 				F3429D45203CF9C4008378B9 /* Post.swift */,
 				F3429D47203CFA0B008378B9 /* UIColor+extension.swift */,
+				F3429D4D203D0974008378B9 /* Distance.swift */,
 			);
 			path = foursquare;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				F3429D40203CF8D8008378B9 /* LoginController.swift in Sources */,
 				F3429D3E203CF8A5008378B9 /* Date+extension.swift in Sources */,
 				F3429D48203CFA0B008378B9 /* UIColor+extension.swift in Sources */,
+				F3429D4E203D0974008378B9 /* Distance.swift in Sources */,
 				F3429D46203CF9C4008378B9 /* Post.swift in Sources */,
 				F3429D44203CF996008378B9 /* User.swift in Sources */,
 				F3429D2C203CF86D008378B9 /* AppDelegate.swift in Sources */,
@@ -410,6 +414,7 @@
 				F3429D3C203CF86D008378B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

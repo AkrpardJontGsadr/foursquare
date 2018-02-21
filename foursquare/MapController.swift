@@ -18,6 +18,8 @@ class MapController: UIViewController {
         
         //Themes 4,5
         
+     
+        
         let user = User(name: "Juan Cabral", image: "penguin.png")
         let post = Post(text: "Swift ", imageUrl: "post_image.png", user: user)
         
@@ -55,6 +57,17 @@ class MapController: UIViewController {
         marker2.map = mapView
         
         
+        let point1  = CGPoint(x: 20.732995, y: -103.38236)
+        let point2  = CGPoint(x: 20.732995, y: -103.38236)
+        let point3  = CGPoint(x: 20.732995, y: -103.38236)
+        
+        var lista = [CGPoint]()
+        lista.append(point1)
+        lista.append(point2)
+        lista.append(point3)
+        
+        getPoints(lista: lista, referencePoint: point1, radius: 2)
+        
     }
     
     //themes 6,7
@@ -71,6 +84,8 @@ class MapController: UIViewController {
     //var p1 = Point(12.2,-12.2)
     //list.append(p1)
     
+    //var listafinal =
+    
     //Enum Cardinality
     // North
     // West
@@ -80,9 +95,26 @@ class MapController: UIViewController {
     
     // if x== 0 then we throw an exception
     
-    //func getXNumbers(list<Point>, userPosition: Point, radius:Int) -> list<Tuple(Point,Cardinality)> throws
-    //function will throw an exception if there's no point at all
-    //guard check and render the closest x euclidean distance in the map
+    
+  
+    func getPoints(lista :[CGPoint], referencePoint :CGPoint , radius:Int) ->[CGPoint]
+    {
+        let list = [CGPoint]()
+              
+        return list
+    }
+    
+    
+    class Distance {
+        
+        
+    func distance(a: CGPoint,b: CGPoint) -> CGFloat {
+        let xDist = a.x - b.x
+        let yDist = a.y - b.y
+        return CGFloat(sqrt((xDist * xDist) + (yDist * yDist)))
+    }
+    }
+
     
     //userposition -> render in the map if and only if there's no exception
     
